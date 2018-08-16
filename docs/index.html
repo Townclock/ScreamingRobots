@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <style> body {padding: 10%; margin: 0;} </style>
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/p5.dom.min.js"></script>
+    <script src="lib/p5.sound.min.js"></script>
+    <script src="scream_amplitude.js"></script>
+    <script src="scream.js"></script>
+    <script src="sketch.js"></script>
+  </head>
+  <body>
+ 
+        <div style="float:right; margin-left: 8px; width : 30%">
+            <div id="json" style="">
+        <textarea id="data_area" style="width:100px; height:100px; "></textarea>
+            </div>
+            <div id="seed"> seed </div>
+            <div id="seed_offset"> seed offset </div>
+            <div id="ee"> ee </div>
+            <div id="oo"> oo </div>
+            <div id="e"> e </div>
+            <div id="u"> u </div>
+            <div id="a"> a </div>
+            <div id="i"> i </div>
+            <div id="length"> length </div>
+            <div id="scream_button"></div>
+            <div id="worble_rate"> worble rate </div>
+            <div id="worble_magnitude"> worble magnitude </div>
+            <div id="mouth"> mouth </div>
+            <div id="children"> generate children </div>
+            <div id="child_screams" style="width: 100%" >
+            <div id="child_1"></div>
+            <div id="child_2"></div>
+            <div id="child_3"></div>
+            <div id="child_4"></div>
+            <div id="child_5"></div>
+            <div id="child_6"></div>
+            </div>
+            <div id="choir"></div>
+        </div>
+        <div id="robot_box" style="height:500px; width:500px;float:left;position:relative">
+            <image src="images/robot_no_mouth.png" style="position:absolute; top:0px"/>
+            <image id="mouth_pos" src="images/robot_mouth.png" style="position:absolute; top:0px"/>
+        </div>
+  </body>
+</html>
